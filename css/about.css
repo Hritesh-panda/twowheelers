@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.about-us {
+  height: 50vh;
+  background: linear-gradient(180deg, #650e0e, #d92323);
+}
+.about p {
+  line-height: 1.5em;
+  text-align: justify;
+  padding-top: 10px;
+  word-spacing: 0.2em;
+  letter-spacing: 1px;
+}

@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@200&family=Courgette&family=Darker+Grotesque:wght@300&family=Diphylleia&family=Mukta+Malar:wght@200&family=Noto+Sans:wght@100&family=Poppins&family=Public+Sans:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@200&family=Courgette&family=Darker+Grotesque:wght@300&family=Diphylleia&family=Mukta+Malar:wght@200&family=Noto+Sans:wght@100&family=Poppins&family=Public+Sans:wght@100&display=swap");
+
+html,
+body {
+  font-family: "poppins";
+  font-size: 16px;
+  line-height: 1.5;
+  box-sizing: border-box;
+  margin: 0;
+  overflow-x: hidden;
+  top: 0;
+  left: 0;
+}
+.head-nav a {
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 500;
+  color: rgba(34, 54, 69, 7);
+}
+.head-nav a:hover {
+  color: #d03737;
+}
+.head-nav ul {
+  list-style: none;
+}
+.head-nav {
+  background-color: #fff !important;
+  padding: 3rem 2rem;
+  height: 0rem;
+  /* min-height: ; */
+}
+
+.head-nav .navbar-brand {
+  padding: 1rem 0;
+  display: block;
+  text-decoration: none;
+}
+.head-nav .navbar-brand img {
+  width: 150px;
+  height: 40px;
+}
+.head-nav button {
+  background: #be0c0c;
+  border: none;
+  padding: 8px 12px;
+  outline: none;
+  /* border-radius: 8px; */
+  color: #fff;
+  font-size: 16px;
+}
+.head-nav button:hover {
+  background-color: #e60101;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: 0.2s ease;
+  box-shadow: 0px 0px 5px #efefef;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 2rem 1rem;
+  font-size: 1-2rem;
+  position: relative;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  border-bottom: 4px solid #be0c0c;
+}
+.navbar-expand-lg .navbar-nav .nav-link:active {
+  border-top: 4px solid #be0c0c;
+  color: #be0c0c;
+}
+.header {
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  background: #fff;
+}
+/* cursole body image */
+.all-body {
+  z-index: -0;
+}
+.car-1 {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.car-1::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.7;
+}
+.car-1 .carousel-caption {
+  bottom: 180px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.car-1 .carousel-caption h5 {
+  font-size: 100px;
+  font-weight: 700;
+  font-family: cursive;
+}
+.car-1 .carousel-caption p {
+  font-size: 20px;
+  top: 2rem;
+}
+.slide-btn {
+  margin-top: 30px;
+}
+.slide-btn .btn {
+  background-color: #d03737;
+  border-radius: 0;
+  columns: white;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+}
+
+/* bikes on spotlight */
+.header-spotlight {
+  background: #24272cb3;
+  margin-top: 20px;
+  /* height: 100vh; */
+  padding: 5px 20px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 5px #f2ebeb;
+}
+.most-popular {
+  border-bottom: 1px solid #b8b5b5;
+}
+.spot-li a:hover {
+  transition: 0.1s all;
+  padding-bottom: 5px !important;
+  border-bottom: 2px solid #efefef;
+}
+.btn-color {
+  background: #d03737 !important;
+  color: #ffff !important;
+}
+.btn-color:hover {
+  color: #ffff;
+  background: #72849c;
+}
+/* company  */
+.accordion-item {
+  border-top: none !important;
+}
+.company-content {
+  box-shadow: 3px 3px 30px rgb(229, 229, 235);
+  background: #ffffff;
+}
+.text-be {
+  color: #529ec1;
+}
+/*  bike details */
+.bike-input {
+  position: relative;
+}
+.image-content {
+  background-image: url(../images/signimg10.jpeg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.h-101 {
+  height: 80vh;
+}
+.form-input {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 150px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.btn-primar {
+  padding: 10px 30px;
+  border: 1px solid #d03737;
+  color: #ffff;
+}
+.btn-primar:hover {
+  background: #d03737;
+  transition: 0.3s ease;
+  color: #fff;
+}
+/* scooter spotlight */
+.scooter-content {
+  background: #f9f9f9;
+  padding: 20px 10px;
+}
+.btn-prim {
+  padding: 8px 15px;
+  background: #f14646 !important;
+  color: #fff !important;
+}
+.btn-prim:hover {
+  background-color: #d03737 !important;
+  color: #fff;
+  border: 1px solid #ba020e;
+}
+/* Review  */
+.review-content {
+  background: #f9f9f9;
+  padding: 20px 20px;
+}
+.fs-66 {
+  font-size: 14px;
+  padding-top: 0px;
+}
+.text-primaryly {
+  color: rgb(210, 210, 236) !important;
+}
+.star-review i {
+  color: darkblue;
+  font-size: 20px;
+}
+.bg-dangerly {
+  background: #f9f9f9;
+}
+.review-body h5 {
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+.review-body p {
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.text-lightsky {
+  color: darkblue;
+  text-align: right !important;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+.text-brown {
+  color: #d03737;
+}
+/* footer */
+.footer {
+  background: #0c1248;
+  padding: 20px 0px;
+}
+.border-last {
+  border-right: 0.6px solid white;
+}
